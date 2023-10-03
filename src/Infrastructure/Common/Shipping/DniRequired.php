@@ -119,13 +119,12 @@ function show_email_field( $keys ) {
 */
  
 add_filter( 'wpo_wcpdf_billing_address', 'include_nif_in_invoice' );
- 
-function include_nif_in_invoice( $address ){
-  global $wpo_wcpdf;
- 
-  echo $address . '<p>';
-  $wpo_wcpdf->custom_field( 'NIF', 'NIF: ' );
-  echo '</p>';
+
+function include_nif_in_invoice( $address, $document ) {
+	if ( ! empty( $document ) && is_callable( array( $document, 'get_custom_field' ) ) && ( $nif = $document->get_custom_field( 'NIF' ) ) ) {
+			$address .= sprintf( '<p>NIE: %s</p>', esc_html( $nif ) );
+	}
+	return $address;
 }
 
 function cif_validation ($cif) {
