@@ -7,13 +7,13 @@
  * Author URI:      https://correos.es
  * Text Domain:     correoswc
  * Domain Path:     /languages
- * Version:         1.0.12
+ * Version:         1.0.13-beta
  */
 require_once __DIR__ . '/vendor/autoload.php';
 
 use \WooEnvio\WpPlugin\Common\Container;
 
-const _PLATFORM_AND_VERSION_ = 'WC_1.0.12';
+const _PLATFORM_AND_VERSION_ = 'WC_1.0.13-beta';
 
 load_plugin_textdomain('correoswc', false, plugin_basename(dirname(__FILE__)) . '/languages');
 
