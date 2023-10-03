@@ -3,7 +3,7 @@ Contributors: correos
 Tags: shipping, woocommerce
 Requires at least: 5.4.2
 Tested up to: 5.8.3
-Stable tag: 1.0.12
+Stable tag: 1.0.13-beta
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -29,6 +29,9 @@ https://www.correos.es/ss/Satellite/site/pagina-aviso_legal/sidioma=es_ES
 3. Click _Install_, then _Activate_.
 
 == Changelog ==
+= 1.0.13-beta =
+Update NIF injection in "PDF Invoices & Packing Slips for WooCommerce". Since v3.6.3, the `$wpo_wcpdf` global variable is no longer available in that plugin, therefore, we have updated the code to the latest standards, to fix a fatal error that was being produced.
+
 = 1.0.12 =
 Added functionality to make the Personal ID(DNI/NIF) field required or activate an existing Personal ID(DNI/NIF) field.
 
