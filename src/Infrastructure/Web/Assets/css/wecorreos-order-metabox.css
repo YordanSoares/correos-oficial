@@ -1,0 +1,109 @@
+#wecorreos-order-metabox .nav-tab-active,
+#wecorreos-order-metabox .nav-tab-active:focus,
+#wecorreos-order-metabox .nav-tab-active:focus:active,
+#wecorreos-order-metabox .nav-tab-active:hover {
+	background-color: inherit;
+	border-bottom: 1px solid white;
+}
+
+#wecorreos-order-metabox .nav-tab {
+	padding: 5px 5px;
+	font-size: 13px;
+}
+
+#wecorreos-order-metabox .we-form-metabox {
+	padding: 1px 10px 0;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#wecorreos-order-metabox .we-featured-header {
+	color: #555;
+	background-color: #e5e5e5;
+	border: 1px solid #ccc;
+	padding: 10px 8px;
+	margin: 10px 0 5px 0;
+	max-width: 230px;
+}
+
+#wecorreos-order-metabox .we-table {
+	display: table;
+	min-width: 235px;
+}
+
+#wecorreos-order-metabox .we-row {
+	display: table-row;
+}
+
+#wecorreos-order-metabox .we-label,
+#wecorreos-order-metabox .we-cell {
+	display: table-cell;
+}
+
+#wecorreos-order-metabox .we-label {
+	font-weight: bold;
+	width: 50px;
+}
+
+#wecorreos-order-metabox .we-dashicons {
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+#wecorreos-order-metabox .we-required {
+	color: red;
+}
+
+#wecorreos-order-metabox label {
+	min-width: 80px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+#wecorreos-order-metabox input[type=text] {
+	max-width: 120px;
+}
+
+#wecorreos-order-metabox .woocommerce-help-tip {
+	display: inline-block;
+	float: right;
+}
+
+#wecorreos-order-metabox .we-disabled {
+	background-color: #ccc;
+}
+
+#wecorreos-order-metabox-header {
+	font-size: 12px;
+}
+
+.we-featured-header-links{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.we-table-tracking {
+	margin-top: 10px;
+	border-top: 1px solid white;
+}
+
+.we-table-tracking div {
+	border-bottom: 1px solid white;
+	padding: 3px 0;
+}
+
+#wecorreos-multipackage .wecorreos-package {
+	border-bottom: 0px solid #ccc;
+}
+
+#wecorreos-multipackage .wecorreos-package:last-child {
+	border-bottom: none;
+}
+#wecorreos_customs_consignor_reference {
+	font-size: 0.95em;
+}
+
+.we-hr{
+	margin: 2em 0;
+  }

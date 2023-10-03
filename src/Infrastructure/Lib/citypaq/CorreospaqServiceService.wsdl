@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="CorreospaqServiceService" targetNamespace="http://www.correos.es/paq/correospaq" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://jaxws.ws.paq.correos.es/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:tns="http://www.correos.es/paq/correospaq" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata">
+  <types>
+    <xsd:schema>
+      <xsd:import namespace="http://www.correos.es/paq/correospaq/type" schemaLocation="CorreospaqServiceService_schema1.xsd"/>
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import namespace="http://www.correos.es/paq/correospaq" schemaLocation="CorreospaqServiceService_schema2.xsd"/>
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import namespace="http://jaxws.ws.paq.correos.es/" schemaLocation="CorreospaqServiceService_schema3.xsd"/>
+    </xsd:schema>
+  </types>
+  <message name="CorreospaqWSException">
+    <part name="fault" element="ns1:CorreospaqWSException">
+    </part>
+  </message>
+  <message name="getStatesWithCitypaq">
+    <part name="parameters" element="tns:getStatesWithCitypaq">
+    </part>
+  </message>
+  <message name="reservaHuecoOpExtOneClickResponse">
+    <part name="parameters" element="tns:reservaHuecoOpExtOneClickResponse">
+    </part>
+  </message>
+  <message name="getFavoritesResponse">
+    <part name="parameters" element="tns:getFavoritesResponse">
+    </part>
+  </message>
+  <message name="getFavorites">
+    <part name="parameters" element="tns:getFavorites">
+    </part>
+  </message>
+  <message name="getCitypaqsResponse">
+    <part name="parameters" element="tns:getCitypaqsResponse">
+    </part>
+  </message>
+  <message name="getCitypaqs">
+    <part name="parameters" element="tns:getCitypaqs">
+    </part>
+  </message>
+  <message name="getUrl">
+    <part name="parameters" element="tns:getUrl">
+    </part>
+  </message>
+  <message name="getStatesWithCitypaqResponse">
+    <part name="parameters" element="tns:getStatesWithCitypaqResponse">
+    </part>
+  </message>
+  <message name="getUrlResponse">
+    <part name="parameters" element="tns:getUrlResponse">
+    </part>
+  </message>
+  <message name="reservaHuecoOpExtTercerosResponse">
+    <part name="parameters" element="tns:reservaHuecoOpExtTercerosResponse">
+    </part>
+  </message>
+  <message name="reservaHuecoOpExtTerceros">
+    <part name="parameters" element="tns:reservaHuecoOpExtTerceros">
+    </part>
+  </message>
+  <message name="reservaHuecoOpExtOneClick">
+    <part name="parameters" element="tns:reservaHuecoOpExtOneClick">
+    </part>
+  </message>
+  <portType name="CorreospaqService">
+    <operation name="getFavorites">
+      <input message="tns:getFavorites" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getFavoritesRequest">
+    </input>
+      <output message="tns:getFavoritesResponse" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getFavoritesResponse">
+    </output>
+      <fault name="CorreospaqWSException" message="tns:CorreospaqWSException" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getFavorites/Fault/CorreospaqWSException">
+    </fault>
+    </operation>
+    <operation name="getCitypaqs">
+      <input message="tns:getCitypaqs" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getCitypaqsRequest">
+    </input>
+      <output message="tns:getCitypaqsResponse" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getCitypaqsResponse">
+    </output>
+      <fault name="CorreospaqWSException" message="tns:CorreospaqWSException" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getCitypaqs/Fault/CorreospaqWSException">
+    </fault>
+    </operation>
+    <operation name="getStatesWithCitypaq">
+      <input message="tns:getStatesWithCitypaq" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getStatesWithCitypaqRequest">
+    </input>
+      <output message="tns:getStatesWithCitypaqResponse" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getStatesWithCitypaqResponse">
+    </output>
+      <fault name="CorreospaqWSException" message="tns:CorreospaqWSException" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getStatesWithCitypaq/Fault/CorreospaqWSException">
+    </fault>
+    </operation>
+    <operation name="getUrl">
+      <input message="tns:getUrl" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getUrlRequest">
+    </input>
+      <output message="tns:getUrlResponse" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getUrlResponse">
+    </output>
+      <fault name="CorreospaqWSException" message="tns:CorreospaqWSException" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/getUrl/Fault/CorreospaqWSException">
+    </fault>
+    </operation>
+    <operation name="reservaHuecoOpExtOneClick">
+      <input message="tns:reservaHuecoOpExtOneClick" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/reservaHuecoOpExtOneClickRequest">
+    </input>
+      <output message="tns:reservaHuecoOpExtOneClickResponse" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/reservaHuecoOpExtOneClickResponse">
+    </output>
+    </operation>
+    <operation name="reservaHuecoOpExtTerceros">
+      <input message="tns:reservaHuecoOpExtTerceros" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/reservaHuecoOpExtTercerosRequest">
+    </input>
+      <output message="tns:reservaHuecoOpExtTercerosResponse" wsam:Action="http://www.correos.es/paq/correospaq/CorreospaqService/reservaHuecoOpExtTercerosResponse">
+    </output>
+    </operation>
+  </portType>
+  <binding name="CorreospaqServicePortBinding" type="tns:CorreospaqService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="getFavorites">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="CorreospaqWSException">
+        <soap:fault name="CorreospaqWSException" use="literal"/>
+      </fault>
+    </operation>
+    <operation name="getCitypaqs">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="CorreospaqWSException">
+        <soap:fault name="CorreospaqWSException" use="literal"/>
+      </fault>
+    </operation>
+    <operation name="getStatesWithCitypaq">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="CorreospaqWSException">
+        <soap:fault name="CorreospaqWSException" use="literal"/>
+      </fault>
+    </operation>
+    <operation name="getUrl">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="CorreospaqWSException">
+        <soap:fault name="CorreospaqWSException" use="literal"/>
+      </fault>
+    </operation>
+    <operation name="reservaHuecoOpExtOneClick">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="reservaHuecoOpExtTerceros">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="CorreospaqServiceService">
+    <port name="CorreospaqServicePort" binding="tns:CorreospaqServicePortBinding">
+      <soap:address location="https://online.correospaq.es:443/correospaqws/CorreospaqService"/>
+    </port>
+  </service>
+</definitions>

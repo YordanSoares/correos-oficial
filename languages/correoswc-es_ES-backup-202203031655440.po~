@@ -1,0 +1,1608 @@
+# Copyright (C) 2017 WECorreos plugin
+# This file is distributed under the same license as the WECorreos plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WECorreos plugin 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/correos-oficial\n"
+"POT-Creation-Date: 2020-11-02T08:20:36+00:00\n"
+"PO-Revision-Date: 2022-03-03 16:47+0000\n"
+"Last-Translator: WooEnvio <info@wooenvio.es>\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
+
+#: src/Infrastructure/WPHooks/requirements.php:27
+#: trunk/src/Infrastructure/WPHooks/requirements.php:27
+msgid " and "
+msgstr " Y "
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:24
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:24
+msgid ""
+"[&gt;=] Units for &quot;weight&quot; and &quot;volume&quot; are configurated "
+"on settings WooCommerce."
+msgstr ""
+"[&gt;=] Las unidades para &quot;Peso&quot y &quot;Volumen&quot; son las "
+"elegidas en la configuración de WooCommerce."
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:28
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:28
+msgid ""
+"[&lt;] If =0 not maximum (Set 0 on &quot;Cost per adional unit&quot;). Units "
+"for &quot;weight&quot; and &quot;volume&quot; are configurated on settings "
+"WooCommerce."
+msgstr ""
+"[&lt;] Si se deja a 0 se considera que no hay máximo (en este caso deja "
+"también a 0 el &quot;Coste por unidad adicional&quot;). Las unidades para "
+"&quot;Peso&quot y &quot;Volumen&quot; son las elegidas en la configuración "
+"de WooCommerce."
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:110
+msgid "Activate it if you need the Personal ID field to be required"
+msgstr "Actívelo si necesita que el campo DNI/NIF sea obligatorio"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:99
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:99
+msgid "Active it if pre-register action no work"
+msgstr "Activar si se obtiene error al generar etiqueta"
+
+#: src/Infrastructure/Web/Templates/Order/label-packages.php:31
+#: src/Infrastructure/Web/Templates/Order/returns-row-package.php:108
+#: trunk/src/Infrastructure/Web/Templates/Order/label-packages.php:31
+msgid "Add package"
+msgstr "Añadir bulto"
+
+#: src/Infrastructure/Web/Templates/CostRules/footer.php:13
+#: trunk/src/Infrastructure/Web/Templates/CostRules/footer.php:13
+msgid "Add Rule"
+msgstr "Añadir regla"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:48
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:48
+msgid "Add sender"
+msgstr "Añadir remitente"
+
+#: src/Infrastructure/Web/Templates/Order/header.php:36
+#: trunk/src/Infrastructure/Web/Templates/Order/header.php:36
+msgid "Addr."
+msgstr "Dire."
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:406
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:76
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:52
+#: src/Infrastructure/Web/Templates/Settings/sender.php:57
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:69
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:44
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:402
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:76
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:52
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:58
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:69
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:44
+msgid "Address"
+msgstr "Dirección"
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:327
+#: src/Infrastructure/Web/Templates/Settings/sender.php:29
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:327
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:29
+msgid "Alias"
+msgstr "Alias"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:16
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:16
+msgid "All products, whihtout class or a certain class."
+msgstr "Para todos los productos, productos sin clase o una clase determinad."
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:95
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:95
+msgid "Alternative SSL"
+msgstr "SSL alternativo"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:96
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:96
+msgid "Alternative SSL communication"
+msgstr "Comunicación SSL alternativa"
+
+#: src/shared/shared-country-states.php:18
+#: src/shared/shared-country-states.php:32
+#: trunk/src/shared/shared-country-states.php:18
+#: trunk/src/shared/shared-country-states.php:32
+msgid "Andorra"
+msgstr "Andorra"
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:338
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:338
+msgid "Another Alias"
+msgstr "Alias"
+
+#: src/Infrastructure/Common/Shipping/shippings.php:235
+#: trunk/src/Infrastructure/Common/Shipping/shippings.php:235
+msgid "Bad file. Check format file."
+msgstr "Formato incorrecto. Comprueba el fichero."
+
+#: src/Infrastructure/Common/Payment/class-correos-pay-on-delivery.php:49
+#: trunk/src/Infrastructure/Common/Payment/class-correos-pay-on-delivery.php:49
+msgid "Bank account number / IBAN"
+msgstr "Número de cuenta / IBAN"
+
+#: src/Infrastructure/Web/Templates/Order/returns.php:57
+#: trunk/src/Infrastructure/Web/Templates/Order/returns.php:57
+msgid ""
+"Bank account number / IBAN. Correos pay \"payment sender\" in this account. "
+"(Required if payment sender greater than 0)"
+msgstr "Número de cuenta bancaria. Requerida si “Coste” es mayor que 0"
+
+#: src/Infrastructure/Common/Payment/config/payondelivery.config.php:11
+#: trunk/src/Infrastructure/Common/Payment/config/payondelivery.config.php:11
+msgid "Cash on Delivery by Correos"
+msgstr "Contrareembolso por Correos"
+
+#: src/Infrastructure/Web/Templates/Order/returns.php:55
+#: src/Domain/Model/Order/Shipping/Returns/class-returns.php:179
+#: trunk/src/Infrastructure/Web/Templates/Order/returns.php:55
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns.php:160
+msgid "CCC"
+msgstr "CCC"
+
+#: src/Domain/Services/Customs/class-save-ddp.php:45
+#: src/Domain/Services/Customs/class-save-declaration-content.php:45
+#: src/Domain/Services/Customs/class-save-dua.php:45
+#: src/Domain/Services/Label/class-save-label.php:45
+#: src/Domain/Services/Label/class-save-multipackage-label.php:76
+#: src/Domain/Services/Returns/class-save-returns.php:58
+#: trunk/src/Domain/Services/Customs/class-save-ddp.php:45
+#: trunk/src/Domain/Services/Customs/class-save-declaration-content.php:45
+#: trunk/src/Domain/Services/Customs/class-save-dua.php:45
+#: trunk/src/Domain/Services/Label/class-save-label.php:45
+#: trunk/src/Domain/Services/Label/class-save-multipackage-label.php:76
+#: trunk/src/Domain/Services/Returns/class-save-returns.php:45
+msgid "Check file permissions. WECorreos plugin needs write some files."
+msgstr "Problema al guardar archivos. Comprueba los permisos."
+
+#: src/welcome/welcome-message.php:26 trunk/src/welcome/welcome-message.php:26
+msgid "Check the fields please"
+msgstr "Comprueba los campos requeridos por favor"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:51
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:73
+#: src/Infrastructure/Web/Templates/Settings/customs.php:18
+#: src/Infrastructure/Web/Templates/Settings/customs.php:35
+msgid "Choose description of Tariff Number"
+msgstr ""
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:410
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:84
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:60
+#: src/Infrastructure/Web/Templates/Settings/sender.php:62
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:73
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:48
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:406
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:84
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:60
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:63
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:73
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:48
+msgid "City"
+msgstr "Ciudad"
+
+#: src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:69
+#: trunk/src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:69
+msgid "City paq user"
+msgstr "Usuario de Citypaq"
+
+#: src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:76
+#: trunk/src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:76
+msgid "Citypaq Favorites"
+msgstr "Citypaqs favoritos"
+
+#: src/citypaq/ajax/citypaqs-selector-bycp.php:42
+#: trunk/src/citypaq/ajax/citypaqs-selector-bycp.php:42
+msgid "Citypaqs updated for postal code:"
+msgstr "Citypaqs actualizados para el código postal:"
+
+#: src/citypaq/ajax/citypaqs-selector-bystate.php:42
+#: trunk/src/citypaq/ajax/citypaqs-selector-bystate.php:42
+msgid "Citypaqs updated for state:"
+msgstr "Citypaq actualizados para la provincia:"
+
+#: src/Domain/Model/Settings/class-general.php:415
+#: src/Infrastructure/Web/Templates/Settings/general.php:21
+#: trunk/src/Domain/Model/Settings/class-general.php:350
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:21
+msgid "Client number"
+msgstr "Número de cliente"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:28
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:36
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:44
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:26
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:34
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:42
+msgid "cm"
+msgstr "cm"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:58
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:86
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:58
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:86
+msgid "Comment"
+msgstr "Observaciones"
+
+#: src/Domain/Model/Order/Shipping/Label/class-label.php:277
+#: trunk/src/Domain/Model/Order/Shipping/Label/class-label.php:236
+msgid "Comments"
+msgstr "Observaciones"
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:60
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:36
+#: src/Infrastructure/Web/Templates/Settings/sender.php:42
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:56
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:60
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:36
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:42
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:56
+msgid "Company"
+msgstr "Empresa"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:19
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:19
+msgid "Condition"
+msgstr "Condición"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:20
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:20
+msgid "Condition rule. Cost, weight o volume"
+msgstr "Condición para la regla. Por precio, peso o volumen"
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:68
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:44
+#: src/Infrastructure/Web/Templates/Settings/sender.php:48
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:68
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:44
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:48
+msgid "Contact"
+msgstr "Contacto"
+
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:80
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:80
+msgid "Contact email"
+msgstr "Correo electrónico"
+
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:62
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:62
+msgid "Contact person"
+msgstr "Persona de contacto"
+
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:74
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:74
+msgid "Contact phone"
+msgstr "Teléfono de contacto"
+
+#: src/Infrastructure/Web/Templates/Order/customs.php:47
+#: trunk/src/Infrastructure/Web/Templates/Order/customs.php:47
+msgid "Content declaration"
+msgstr "Obtener declaración de contenido"
+
+#: src/Domain/Model/Settings/class-general.php:419
+#: src/Infrastructure/Web/Templates/Settings/general.php:29
+#: trunk/src/Domain/Model/Settings/class-general.php:354
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:29
+msgid "Contract number"
+msgstr "Número de contrato"
+
+#. Author of the plugin
+#: src/Infrastructure/Services/Settings/settings.php:94
+#: src/Infrastructure/Services/Settings/settings.php:95
+#: trunk/src/Infrastructure/Services/Settings/settings.php:93
+#: trunk/src/Infrastructure/Services/Settings/settings.php:94
+msgid "Correos"
+msgstr "Correos"
+
+#: src/Infrastructure/Web/Templates/error-config-plugin.php:14
+#: trunk/src/Infrastructure/Web/Templates/error-config-plugin.php:14
+msgid "Correos > Senders"
+msgstr "Correos > Remitentes"
+
+#: src/Infrastructure/WPHooks/Plugin/plugin-info.php:16
+#: trunk/src/Infrastructure/WPHooks/Plugin/plugin-info.php:16
+msgid "Correos documentation"
+msgstr "Documentación Correos"
+
+#. Name of the plugin
+#, fuzzy
+#| msgid "Correos Official"
+msgid "Correos Oficial"
+msgstr "Correos oficial"
+
+#: src/Infrastructure/WPHooks/requirements.php:29
+#: trunk/src/Infrastructure/WPHooks/requirements.php:29
+msgid "Correos Oficial plugin needs %s"
+msgstr "El plugin Correos Oficial necesita %s"
+
+#: src/Infrastructure/Web/Templates/error-config-plugin.php:11
+#: trunk/src/Infrastructure/Web/Templates/error-config-plugin.php:11
+msgid "Correos Oficial. Senders Settings must be configurated"
+msgstr "El plugin Correos Oficial necesita al menos un remitente configurado"
+
+#: src/Domain/Model/Settings/class-general.php:431
+#: src/Infrastructure/Web/Templates/Settings/general.php:52
+#: trunk/src/Domain/Model/Settings/class-general.php:366
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:52
+msgid "Correos password"
+msgstr "Password de Correos"
+
+#: src/Infrastructure/Services/Order/Shipping/shipping.php:75
+#: trunk/src/Infrastructure/Services/Order/Shipping/shipping.php:75
+msgid "Correos Shipping"
+msgstr "Envío por Correos"
+
+#. Description of the plugin
+msgid "Correos shipping for WooCommerce"
+msgstr "Envíos con Correos para WooCommerce"
+
+#: src/Domain/Model/Settings/class-general.php:427
+#: src/Infrastructure/Web/Templates/Settings/general.php:44
+#: trunk/src/Domain/Model/Settings/class-general.php:362
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:44
+msgid "Correos user"
+msgstr "Usuario de Correos"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:36
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:36
+msgid "Cort per additional unit"
+msgstr "Coste por unidad adicional"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:31
+#: src/Infrastructure/Web/Templates/Order/returns.php:45
+#: src/Domain/Model/Order/Shipping/Returns/class-returns.php:169
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:31
+#: trunk/src/Infrastructure/Web/Templates/Order/returns.php:45
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns.php:150
+msgid "Cost"
+msgstr "Coste"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:35
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:35
+msgid "Cost Per Additional Unit"
+msgstr "Coste por unidad adicional"
+
+#: src/Infrastructure/Common/Shipping/AbstractShippingPro.php:104
+#: trunk/src/Infrastructure/Common/Shipping/AbstractShippingPro.php:104
+msgid "Cost rules error: We are changed %s by 0. Please check it"
+msgstr ""
+"Error en las reglas de cose: Se ha cambiado %s por 0. Por favor compruébalo"
+
+#: src/Infrastructure/Web/Templates/Settings/sender.php:96
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:97
+msgid "Country"
+msgstr "País"
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:414
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:108
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:84
+#: src/Infrastructure/Web/Templates/Settings/sender.php:82
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:81
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:56
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:410
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:108
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:84
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:83
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:81
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:56
+msgid "CP"
+msgstr "CP"
+
+#: src/Infrastructure/Web/Templates/Order/tabs.php:20
+#: trunk/src/Infrastructure/Web/Templates/Order/tabs.php:20
+msgid "Customs"
+msgstr "Aduana"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:66
+#: src/Infrastructure/Web/Templates/Settings/tabs.php:22
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:66
+#: trunk/src/Infrastructure/Web/Templates/Settings/tabs.php:22
+msgid "Customs Doc"
+msgstr "Documentación aduanera"
+
+#: src/Infrastructure/Web/Templates/Settings/customs.php:12
+#: trunk/src/Infrastructure/Web/Templates/Settings/customs.php:12
+msgid "Customs Doc configuration on preregister section on order page."
+msgstr ""
+"Configuración de la documentación aduanera que ciertos envíos necesitan."
+
+#: src/Infrastructure/Web/Templates/Order/label.php:71
+#: src/Infrastructure/Web/Templates/Settings/customs.php:58
+msgid "Customs reference of the consignor"
+msgstr "Referencia aduanera del expedidor"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:72
+#: src/Infrastructure/Web/Templates/Settings/customs.php:59
+msgid ""
+"Customs reference of the consignor that appears in the pre-registration form."
+" It can be changed before pre-registration"
+msgstr ""
+"Referencia aduanera del expedidor que aparece en el preregistro. Puede ser "
+"cambiado previamente"
+
+#: src/Infrastructure/Services/Settings/Customs/customs.php:28
+#: src/Infrastructure/Services/Settings/General/general.php:43
+#: src/Infrastructure/Services/Settings/Senders/senders.php:41
+#: trunk/src/Infrastructure/Services/Settings/Customs/customs.php:24
+#: trunk/src/Infrastructure/Services/Settings/General/general.php:40
+#: trunk/src/Infrastructure/Services/Settings/Senders/senders.php:41
+msgid "Data Saved"
+msgstr "Datos guardados"
+
+#: src/Infrastructure/Services/Order/Shipping/Customs/customs.php:153
+#: trunk/src/Infrastructure/Services/Order/Shipping/Customs/customs.php:153
+msgid "Ddp created, now you can download it"
+msgstr "DDP creada, ahora puedes bajarla"
+
+#: src/Infrastructure/Web/Templates/Order/customs.php:39
+#: trunk/src/Infrastructure/Web/Templates/Order/customs.php:39
+msgid "DDP Documentation"
+msgstr "Documentación DDP"
+
+#: src/Infrastructure/Services/Order/Shipping/Customs/customs.php:219
+#: trunk/src/Infrastructure/Services/Order/Shipping/Customs/customs.php:219
+msgid "Declaration created, now you can download it"
+msgstr "Declaración de contenido creada, ahora puedes bajarla"
+
+#: src/Infrastructure/Web/Templates/Settings/customs.php:20
+#: trunk/src/Infrastructure/Web/Templates/Settings/customs.php:19
+msgid "Default customs description"
+msgstr "Descripción por defecto"
+
+#: src/Domain/Model/Settings/class-customs.php:146
+#: trunk/src/Domain/Model/Settings/class-customs.php:92
+msgid "Default description"
+msgstr "Descripción por defecto"
+
+#: src/Infrastructure/Web/Templates/Order/label-packages.php:41
+#: src/Infrastructure/Web/Templates/Order/returns-row-package.php:114
+#: trunk/src/Infrastructure/Web/Templates/Order/label-packages.php:41
+msgid "Delete package"
+msgstr "Borrar bulto"
+
+#: src/Infrastructure/Web/Templates/CostRules/footer.php:15
+#: trunk/src/Infrastructure/Web/Templates/CostRules/footer.php:15
+msgid "Delete Rule"
+msgstr "Eliminar regla(s) seleccionada(s)"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:51
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:51
+msgid "Delete sender/s"
+msgstr "Eliminar remitente / s"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:68
+#: src/Infrastructure/Web/Templates/Settings/customs.php:50
+msgid "Description"
+msgstr "Descripción"
+
+#: src/Infrastructure/Web/Templates/Settings/customs.php:21
+#: trunk/src/Infrastructure/Web/Templates/Settings/customs.php:20
+msgid ""
+"Description by default that appears in the pre-registration form. It can be "
+"changed before pre-registration."
+msgstr ""
+"Descripción por defecto que aparece en el formulario de obtención de "
+"etiquetas."
+
+#: src/Infrastructure/Common/Payment/class-payment.php:97
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:97
+msgid "Description of the additional charge shown on the cart"
+msgstr "Descripción mostrada en el carro por el cargo adicional"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:88
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:88
+msgid "Display Google map on selecting citypaq or postoffice in checkout. "
+msgstr ""
+"Muestra un mapa de Google  al seleccionar una oficina de correos o citypaq "
+"en la página de checkout "
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:53
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:29
+#: src/Infrastructure/Web/Templates/Settings/sender.php:53
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:53
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:29
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:53
+msgid "DNI"
+msgstr "DNI/NIF"
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:402
+msgid "Dni/Nif"
+msgstr ""
+
+#: src/Infrastructure/Web/Templates/Order/metabox-empty.php:15
+#: trunk/src/Infrastructure/Web/Templates/Order/metabox-empty.php:15
+msgid "Do you want create it? "
+msgstr "¿Quieres actualizarlo con un envío de Correos? "
+
+#: src/Infrastructure/WPHooks/Plugin/plugin-info.php:16
+#: trunk/src/Infrastructure/WPHooks/Plugin/plugin-info.php:16
+msgid "Docs"
+msgstr "Documentación"
+
+#: src/Infrastructure/Web/Templates/Bulk/Actions/print-manifiest.php:13
+#: src/Infrastructure/Web/Templates/Bulk/Actions/print-on-labeler.php:13
+#: src/Infrastructure/Web/Templates/Bulk/Modal/form-select-position-on-a4.php:42
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Actions/print-manifiest.php:13
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Actions/print-on-labeler.php:13
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Modal/form-select-position-on-a4.php:42
+msgid "Doing request"
+msgstr "Generando fichero"
+
+#: src/Infrastructure/Web/Templates/Order/customs-header.php:33
+#: trunk/src/Infrastructure/Web/Templates/Order/customs-header.php:33
+msgid "Download Content Declaration"
+msgstr "Descargar declaración de contenido"
+
+#: src/Infrastructure/Web/Templates/Order/customs-header.php:24
+#: trunk/src/Infrastructure/Web/Templates/Order/customs-header.php:24
+msgid "Download DDP"
+msgstr "Descargar DDP"
+
+#: src/Infrastructure/Web/Templates/Order/customs-header.php:15
+#: trunk/src/Infrastructure/Web/Templates/Order/customs-header.php:15
+msgid "Download DUA"
+msgstr "Descargar DUA"
+
+#: src/Infrastructure/Web/Templates/Bulk/Messages/merged-success.php:13
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Messages/merged-success.php:13
+msgid "Download File"
+msgstr "Descargar archivo"
+
+#: src/Infrastructure/Web/Templates/Order/label-header.php:12
+#: trunk/src/Infrastructure/Web/Templates/Order/label-header.php:12
+msgid "Download Label"
+msgstr "Descargar etiqueta"
+
+#: src/Infrastructure/Web/Templates/Order/returns-header.php:24
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-header.php:24
+msgid "Download RMA Label"
+msgstr "Etiqueta de devolución (RMA)"
+
+#: src/Infrastructure/Services/Order/Shipping/Customs/customs.php:186
+#: trunk/src/Infrastructure/Services/Order/Shipping/Customs/customs.php:186
+msgid "Dua created, now you can download it"
+msgstr "DUA creada, ahora puedes bajarla"
+
+#: src/Infrastructure/Web/Templates/Order/customs.php:33
+#: trunk/src/Infrastructure/Web/Templates/Order/customs.php:33
+msgid "DUA Documentation"
+msgstr "Documentación DUA"
+
+#: src/Infrastructure/Common/Payment/class-correos-pay-on-delivery.php:51
+#: trunk/src/Infrastructure/Common/Payment/class-correos-pay-on-delivery.php:51
+msgid "E.g. ES51 2095 0032 8091 0766 7150"
+msgstr "E.j. ES51 2095 0032 8091 0766 7150"
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:418
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:123
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:99
+#: src/Infrastructure/Web/Templates/Settings/sender.php:86
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:85
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:60
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:414
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:123
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:99
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:87
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:85
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:60
+msgid "Email"
+msgstr "Email"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:12
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:12
+msgid "Email, State, City, CP and Address"
+msgstr "Correo electrónico, provincia, ciudad, CP y dirección"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:53
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:53
+msgid "Enable this Payment Method"
+msgstr "Habilitar este método de pago"
+
+#: src/Infrastructure/Web/Templates/CostRules/footer.php:16
+#: trunk/src/Infrastructure/Web/Templates/CostRules/footer.php:16
+msgid "Export rules (csv)"
+msgstr "Exportar reglas (csv)"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:87
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:87
+msgid "Extra charge"
+msgstr "Cargo adicional"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:98
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:98
+msgid "Extra charge (Payment on delivery)"
+msgstr "Cargo extra (pago contrareembolso por Correos)"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:89
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:89
+msgid "Extra charge added to total cart."
+msgstr "Cargo adicional añadido al total del carro."
+
+#: src/Infrastructure/Common/Payment/class-payment.php:95
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:95
+msgid "Extra charge display cart"
+msgstr "Info cargo adicional en el carro"
+
+#: src/citypaq/ajax/citypaqs-selector-favorites.php:41
+#: trunk/src/citypaq/ajax/citypaqs-selector-favorites.php:41
+msgid "Favorites citypaqs for user:"
+msgstr "Citypaqs favoritos del usuario:"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:12
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:12
+msgid "Fields are required"
+msgstr "Campos requeridos"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:12
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:12
+msgid ""
+"Fill in all data provided by Correos and enable the shipping methods for "
+"WooCommerce."
+msgstr ""
+"Complete todos los datos proporcionados por Correos y habilite los métodos "
+"de envío para WooCommerce."
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:437
+#: src/Domain/Model/Order/Shipping/Returns/class-identity.php:251
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:433
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-identity.php:251
+msgid "First and Second name or Company and Contact"
+msgstr "Nombre y Apellidos o Empresa y Contacto"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:15
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:15
+msgid "First and Second name or Company and Contact."
+msgstr "Nombre y Apellidos o Empresa y Contacto."
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:37
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:13
+#: src/Infrastructure/Web/Templates/Settings/sender.php:34
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:37
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:13
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:34
+msgid "First name"
+msgstr "Nombre"
+
+#: src/Application/Services/Order/Shipping/Returns/class-obtain-returns-handler.php:208
+#: trunk/src/Application/Services/Order/Shipping/Returns/class-obtain-returns-handler.php:203
+msgid "First obtain label, please"
+msgstr "Primero debes obtener la etiqueta"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:76
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:79
+msgid "First product description"
+msgstr "Descripción del primer artículo"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:95
+#: src/Infrastructure/Web/Templates/Order/returns-row-package.php:84
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:70
+#: trunk/src/Domain/Model/Order/Shipping/Label/class-label.php:248
+msgid "First product value"
+msgstr "Valor del primer artículo"
+
+#: src/Application/Services/Settings/Senders/class-add-sender-handler.php:45
+#: trunk/src/Application/Services/Settings/Senders/class-add-sender-handler.php:45
+msgid "First save almost one"
+msgstr "Primero guarda un remitente. Luego puedes añadir los que necesites"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:23
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:23
+msgid "From (minimum)"
+msgstr "Desde (mínimo)"
+
+#: src/Infrastructure/Web/Templates/Settings/tabs.php:14
+#: trunk/src/Infrastructure/Web/Templates/Settings/tabs.php:14
+msgid "General"
+msgstr "General"
+
+#: src/Infrastructure/Services/Order/Shipping/Label/label.php:91
+#: trunk/src/Infrastructure/Services/Order/Shipping/Label/label.php:91
+msgid "General Settings must be configurated"
+msgstr "La página general debe estar configurada"
+
+#: src/Infrastructure/Web/Templates/Order/metabox-empty.php:46
+#: trunk/src/Infrastructure/Web/Templates/Order/metabox-empty.php:46
+msgid "Generate"
+msgstr "Generar"
+
+#: src/Infrastructure/Web/Templates/Order/metabox-citypaq.php:20
+#: src/Infrastructure/Web/Templates/Order/metabox-office.php:20
+#: trunk/src/Infrastructure/Web/Templates/Order/metabox-citypaq.php:20
+#: trunk/src/Infrastructure/Web/Templates/Order/metabox-office.php:20
+msgid "Generate shipping"
+msgstr "Generar envío"
+
+#: src/Infrastructure/Web/Templates/Bulk/Messages/merged-success.php:9
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Messages/merged-success.php:9
+msgid "Generated Orders"
+msgstr "Fichero generado. Pedidos"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:87
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:87
+msgid "Google map API KEY"
+msgstr "Google map API KEY"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:33
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:31
+#: src/Domain/Model/Order/Shipping/Label/Package/class-package.php:278
+#: trunk/src/Domain/Model/Order/Shipping/Label/Package/class-package.php:226
+msgid "Height"
+msgstr "Alto"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:116
+msgid ""
+"Here you can indicate whether your shop already has a personalised ID number "
+"added by yourself to the checkout"
+msgstr ""
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:107
+msgid "Here you make required the Personal ID field in the checkout"
+msgstr ""
+"Activar para hacer el campo de DNI/NIF Obligatorio en el proceso de pago"
+
+#. Author URI of the plugin
+msgid "https://correos.es"
+msgstr "https://correos.es"
+
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:36
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:36
+msgid "I am already a user"
+msgstr "Ya soy usuario"
+
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:33
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:33
+msgid "I want to be a client"
+msgstr "Quiero ser cliente"
+
+#: src/Infrastructure/Web/Templates/Order/header.php:20
+#: trunk/src/Infrastructure/Web/Templates/Order/header.php:20
+msgid "ID"
+msgstr "ID"
+
+#: src/Infrastructure/Common/Shipping/DniRequired.php:22
+msgid "Identification number"
+msgstr "DNI/NIF"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:16
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:16
+msgid "If you fill all of them has preference company + contact person."
+msgstr ""
+"Si rellena todos tiene preferencia la empresa + la persona de contacto."
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:120
+msgid ""
+"If you have developed a Required Personalised Personal ID field, indicate "
+"the field name"
+msgstr ""
+"Si has desarrollado el campo DNI/NIF obligatorio, indica el nombre del campo"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:107
+#: src/Infrastructure/Web/Templates/Settings/customs.php:75
+msgid "If you select tariff number you must choice a description"
+msgstr "Si selecciona nº tarifario debe seleccionar una descripción"
+
+#: src/Infrastructure/Web/Templates/CostRules/importexportcsv.php:22
+#: trunk/src/Infrastructure/Web/Templates/CostRules/importexportcsv.php:22
+msgid "Import rules (csv)"
+msgstr "Importar reglas"
+
+#: src/Infrastructure/Web/Templates/CostRules/importexportcsv.php:11
+#: trunk/src/Infrastructure/Web/Templates/CostRules/importexportcsv.php:11
+msgid "Import Rules from CSV file"
+msgstr "Importar reglas desde archivo CSV"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:49
+#: src/Domain/Model/Order/Shipping/Label/class-label.php:266
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:49
+#: trunk/src/Domain/Model/Order/Shipping/Label/class-label.php:225
+msgid "Insurance"
+msgstr "Seguro"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:50
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:50
+msgid "Insurance between 0 and 3000"
+msgstr "El seguro de tener un valor entre 0 y 3000"
+
+#: src/citypaq/citypaq-checkout.php:68
+#: src/postoffice/postoffice-checkout.php:65
+#: trunk/src/citypaq/citypaq-checkout.php:68
+#: trunk/src/postoffice/postoffice-checkout.php:65
+msgid "is required for this shipping method."
+msgstr "es requerido para este método de envío."
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:20
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:18
+msgid "kg"
+msgstr "kg"
+
+#: src/Infrastructure/Web/Templates/Order/tabs.php:14
+#: trunk/src/Infrastructure/Web/Templates/Order/tabs.php:14
+msgid "Label"
+msgstr "Etiqueta"
+
+#: src/Infrastructure/Services/Order/Shipping/Label/label.php:204
+#: trunk/src/Infrastructure/Services/Order/Shipping/Label/label.php:199
+msgid "Label created, now you can download it"
+msgstr "Etiqueta creada, ahora puedes bajarla"
+
+#: src/Domain/Model/Settings/class-general.php:423
+#: src/Infrastructure/Web/Templates/Settings/general.php:36
+#: trunk/src/Domain/Model/Settings/class-general.php:358
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:36
+msgid "Labeler code"
+msgstr "Código etiquetador"
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:45
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:21
+#: src/Infrastructure/Web/Templates/Settings/sender.php:38
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:45
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:21
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:38
+msgid "Last name"
+msgstr "Apellidos"
+
+#: src/Infrastructure/Services/Settings/settings.php:66
+#: trunk/src/Infrastructure/Services/Settings/settings.php:65
+msgid "Leave at least one record"
+msgstr "Debe dejar al menos un registro"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:41
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:39
+#: src/Domain/Model/Order/Shipping/Label/Package/class-package.php:288
+#: trunk/src/Domain/Model/Order/Shipping/Label/Package/class-package.php:236
+msgid "Length"
+msgstr "Largo"
+
+#: src/Infrastructure/Services/Order/Shipping/Label/label.php:205
+#: trunk/src/Infrastructure/Services/Order/Shipping/Label/label.php:200
+msgid "Localizaction link email sended to customer"
+msgstr "Email con enlace de localización enviado al cliente"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:53
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:53
+msgid "Make sure you not use on-line Correos password"
+msgstr "Asegúrese de no utilizar la contraseña de la web de Correos"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:45
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:45
+msgid "Make sure you not use on-line Correos user"
+msgstr "Asegúrese de no utilizar el usuario de la web de Correos"
+
+#: src/Infrastructure/Common/Shipping/AbstractShipping.php:79
+#: trunk/src/Infrastructure/Common/Shipping/AbstractShipping.php:79
+msgid "Max Weight"
+msgstr "Peso máximo"
+
+#: src/Application/Services/Order/Shipping/Label/class-add-package-handler.php:59
+#: trunk/src/Application/Services/Order/Shipping/Label/class-add-package-handler.php:59
+msgid "maximum %s packages"
+msgstr "máximo %s bultos"
+
+#: src/Infrastructure/Common/Shipping/AbstractShipping.php:82
+#: trunk/src/Infrastructure/Common/Shipping/AbstractShipping.php:82
+msgid ""
+"Maximum cart weight (kg). Over this amount this shipping not available. With "
+"0 the shipping is available with any weight."
+msgstr ""
+"Peso máximo permitido (Kg). Por encima de esta cantidad este envío no esta "
+"disponible. Si la cantidad es 0 está permitido cualquier peso."
+
+#: src/Infrastructure/Common/Payment/class-payment.php:80
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:80
+msgid "Maximum transaction amount"
+msgstr "Máxima cantidad a pagar"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:82
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:82
+msgid "Maximum transaction amount for this payment method"
+msgstr ""
+"Si el pedido supera éste máximo, contra reembolso (Correos) no se activará"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:96
+#: src/Infrastructure/Web/Templates/Order/returns-row-package.php:85
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:71
+msgid "Net value of the first item"
+msgstr "Valor neto del primer artículo"
+
+#: src/Infrastructure/Common/Shipping/DniRequired.php:86
+msgid "NIF-DNI, is a required field"
+msgstr "NIF-DNI es un campo requerido"
+
+#: src/Infrastructure/Common/Shipping/DniRequired.php:87
+msgid "NIF-DNI, is invalid. Please, enter a valid NIF-DNI."
+msgstr "NIF-DNI es inválido. Por favor, entre un NIF-DNI válido."
+
+#: src/Domain/Model/Settings/class-general.php:444
+#: trunk/src/Domain/Model/Settings/class-general.php:379
+msgid "No change order status"
+msgstr "No cambiar el estado del pedido"
+
+#: src/citypaq/ajax/citypaqs-selector-bycp.php:42
+#: trunk/src/citypaq/ajax/citypaqs-selector-bycp.php:42
+msgid "No Citypaqs for postal code:"
+msgstr "Ninguna Citypaq disponible en este código postal:"
+
+#: src/citypaq/ajax/citypaqs-selector-bystate.php:42
+#: trunk/src/citypaq/ajax/citypaqs-selector-bystate.php:42
+msgid "No Citypaqs for state:"
+msgstr "Ningun Citypaq disponible en esta provincia:"
+
+#: src/citypaq/ajax/citypaqs-selector-favorites.php:41
+#: trunk/src/citypaq/ajax/citypaqs-selector-favorites.php:41
+msgid "No Citypaqs for user:"
+msgstr "No hay  Citypaqs favoritos del usuario:"
+
+#: src/postoffice/postoffice-ajax.php:41
+#: trunk/src/postoffice/postoffice-ajax.php:41
+msgid "No Offices for postal code:"
+msgstr "Ninguna oficina disponible en este código postal:"
+
+#: src/Infrastructure/Common/Shipping/shippings.php:236
+#: trunk/src/Infrastructure/Common/Shipping/shippings.php:236
+msgid "No read file."
+msgstr "Incapaz de leer fichero."
+
+#: src/Infrastructure/Web/Templates/Bulk/Messages/merged-error.php:13
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Messages/merged-error.php:13
+msgid "Not Correos orders"
+msgstr "No son pedidos de Correos"
+
+#: src/Infrastructure/Web/Templates/Bulk/Messages/merged-error.php:9
+#: src/Infrastructure/Web/Templates/Bulk/Messages/merged-warning.php:9
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Messages/merged-error.php:9
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Messages/merged-warning.php:9
+msgid "Not Generated Orders"
+msgstr "Pedidos no generados"
+
+#: src/Infrastructure/Web/Templates/Bulk/Messages/merged-warning.php:13
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Messages/merged-warning.php:13
+msgid "Not Preregister orders. Go to each order and preregiter it."
+msgstr ""
+"Pedidos no preregistrados. Ve a cada pedido y obtén la etiqueta primero."
+
+#: src/Infrastructure/Web/Templates/Order/customs.php:25
+#: src/Domain/Model/Order/Shipping/Customs/class-customs.php:107
+#: trunk/src/Infrastructure/Web/Templates/Order/customs.php:25
+#: trunk/src/Domain/Model/Order/Shipping/Customs/class-customs.php:107
+msgid "Number of elements"
+msgstr "Nº de bultos"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:59
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:59
+msgid "Observations printed on Label Order. No more of 45 characters"
+msgstr "Observaciones en la etiqueta del pedido. No más de 45 caracteres"
+
+#: src/Infrastructure/Web/Templates/Bulk/Actions/print-on-a4.php:14
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Actions/print-on-a4.php:14
+msgid "Obtain A4 merged labels"
+msgstr "Obtener etiquetas en formato A4"
+
+#: src/Application/Services/Order/Shipping/Customs/class-obtain-customs-ddp-handler.php:175
+#: src/Application/Services/Order/Shipping/Customs/class-obtain-customs-declaration-handler.php:83
+#: src/Application/Services/Order/Shipping/Customs/class-obtain-customs-dua-handler.php:176
+#: trunk/src/Application/Services/Order/Shipping/Customs/class-obtain-customs-ddp-handler.php:175
+#: trunk/src/Application/Services/Order/Shipping/Customs/class-obtain-customs-declaration-handler.php:83
+#: trunk/src/Application/Services/Order/Shipping/Customs/class-obtain-customs-dua-handler.php:176
+msgid "Obtain first the label please"
+msgstr "Primero debes obtener la etiqueta"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:84
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:98
+msgid "Obtain label"
+msgstr "Obtener etiqueta"
+
+#: src/Infrastructure/Web/Templates/Bulk/Modal/form-select-position-on-a4.php:46
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Modal/form-select-position-on-a4.php:46
+msgid "Obtain labels"
+msgstr "Obtener etiquetas"
+
+#: src/postoffice/postoffice-ajax.php:41
+#: trunk/src/postoffice/postoffice-ajax.php:41
+msgid "Offices updated for postal code:"
+msgstr "Oficinas actualizadas para el código postal:"
+
+#: src/Infrastructure/Common/Shipping/AbstractShipping.php:74
+#: trunk/src/Infrastructure/Common/Shipping/AbstractShipping.php:74
+msgid "Optional fee for this shipping method."
+msgstr "Coste fijo opcional para este método de envío."
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:72
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:72
+msgid "Order status after obtain Correos label"
+msgstr "Estado del pedido después de obtener la etiqueta"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:71
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:71
+msgid "Order status on obtain label"
+msgstr "Estado del pedido"
+
+#: src/Infrastructure/Common/Shipping/config/paq72citypaq.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/paq72citypaq.config.php:10
+msgid "Paq Estándar CityPaq"
+msgstr "Paq Estándar CityPaq"
+
+#: src/Infrastructure/Common/Shipping/config/paq72citypaq.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/paq72citypaq.config.php:11
+msgid "Paq Estándar CityPaq 72h"
+msgstr "Paq Estándar CityPaq 72h"
+
+#: src/Infrastructure/Common/Shipping/config/paqlightinternational.config.php:10
+#: src/Infrastructure/Common/Shipping/config/paqlightinternational.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/paqlightinternational.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/paqlightinternational.config.php:11
+msgid "Paq Light International"
+msgstr "Paq light Internacional"
+
+#: src/Infrastructure/Common/Shipping/config/paq48citypaq.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/paq48citypaq.config.php:10
+msgid "Paq Premium CityPaq"
+msgstr "Paq Premium CityPaq"
+
+#: src/Infrastructure/Common/Shipping/config/paq48citypaq.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/paq48citypaq.config.php:11
+msgid "Paq Premium CityPaq 48h/72h"
+msgstr "Paq Premium CityPaq 48h/72h"
+
+#: src/Infrastructure/Common/Shipping/config/paq48home.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/paq48home.config.php:10
+msgid "Paq Premium Home"
+msgstr "Paq Premium Domicilio"
+
+#: src/Infrastructure/Common/Shipping/config/paq48office.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/paq48office.config.php:10
+msgid "Paq Premium Office"
+msgstr "Paq Premium Oficina"
+
+#: src/Infrastructure/Common/Shipping/config/paq72home.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/paq72home.config.php:10
+msgid "Paq Standard Home"
+msgstr "Paq Estándar Domicilio"
+
+#: src/Infrastructure/Common/Shipping/config/international.config.php:10
+#: src/Infrastructure/Common/Shipping/config/international.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/international.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/international.config.php:11
+msgid "Paq Standard International"
+msgstr "Paq Estándar Internacional"
+
+#: src/Infrastructure/Common/Shipping/config/paq72office.config.php:10
+#: trunk/src/Infrastructure/Common/Shipping/config/paq72office.config.php:10
+msgid "Paq Standard Office"
+msgstr "Paq Estándar Oficina"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:62
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:62
+msgid "Pay on delivery"
+msgstr "Pago contra reembolso (Correos)"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:69
+#: src/Infrastructure/Common/Payment/class-payment.php:76
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:69
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:76
+msgid "Pay with cash upon delivery"
+msgstr "Tus clientes pagan en efectivo a la entrega del pedido (Correos)"
+
+#: src/Infrastructure/Web/Templates/Order/header.php:29
+#: trunk/src/Infrastructure/Web/Templates/Order/header.php:29
+msgid "Payment"
+msgstr "Pago"
+
+#: src/Infrastructure/Common/Payment/class-payment.php:115
+#: trunk/src/Infrastructure/Common/Payment/class-payment.php:115
+msgid "Payment to be made upon delivery."
+msgstr "El pago será realizado a la entrega de Correos."
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:116
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:92
+#: src/Infrastructure/Web/Templates/Settings/sender.php:90
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:116
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:92
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:91
+msgid "Phone"
+msgstr "Teléfono"
+
+#: src/Infrastructure/Common/Requirements/class-requirements.php:86
+#: trunk/src/Infrastructure/Common/Requirements/class-requirements.php:86
+msgid "PHP %s or greater"
+msgstr "PHP %s o mayor"
+
+#: src/Infrastructure/Web/Templates/error.php:14
+#: trunk/src/Infrastructure/Web/Templates/error.php:14
+msgid "Please contact with"
+msgstr "Por favor, contacte con"
+
+#: src/Infrastructure/Common/Email/template/wecorreos-return.php:18
+#: src/Infrastructure/Common/Email/template/plain/wecorreos-return.php:15
+#: trunk/src/Infrastructure/Common/Email/template/wecorreos-return.php:18
+#: trunk/src/Infrastructure/Common/Email/template/plain/wecorreos-return.php:15
+msgid ""
+"Please find attached, the new label you need to print out put it on the "
+"parcel. Please take it to the nearest Post Office or contact us if you wish "
+"to organize a parcel collection"
+msgstr ""
+"Se adjunta la etiqueta que usted debe imprimir y pegar al paquete. "
+"Posteriormente debe llevarlo a la oficina de Correos más cercana o contacte "
+"con nosotros para organizar la recogida"
+
+#: src/Infrastructure/Common/Shipping/shippings.php:237
+#: trunk/src/Infrastructure/Common/Shipping/shippings.php:237
+msgid "Please select a file"
+msgstr "Por favor selecciona un fichero"
+
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:46
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:46
+msgid ""
+"Please, fill in these details and our commercial services will contact you "
+"shortly."
+msgstr ""
+"Por favor, cumplimente estos datos y nuestros servicios comerciales "
+"contactarán en breve con Vd."
+
+#: src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:37
+#: src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:39
+#: trunk/src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:37
+#: trunk/src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:39
+msgid "Postal Code"
+msgstr "Código postal"
+
+#: src/Infrastructure/Web/Templates/Bulk/Actions/print-on-a4.php:17
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Actions/print-on-a4.php:17
+msgid "Print labels format A4 (Correos)"
+msgstr "Obtener etiquetas Correos. Formato A4"
+
+#: src/Infrastructure/Web/Templates/Bulk/Actions/print-on-labeler.php:17
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Actions/print-on-labeler.php:17
+msgid "Print labels format Labeler (Correos)"
+msgstr "Obtener etiquetas Correos. Formato etiquetadora"
+
+#: src/Infrastructure/Web/Templates/Bulk/Actions/print-manifiest.php:17
+#: trunk/src/Infrastructure/Web/Templates/Bulk/Actions/print-manifiest.php:17
+msgid "Print Manifiest (Correos)"
+msgstr "Imprimir manifiesto Correos"
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:14
+#: src/Domain/Model/Order/Shipping/Returns/class-returns.php:165
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:14
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns.php:146
+msgid "Recipient"
+msgstr "Remitente"
+
+#: src/Infrastructure/Services/Order/Shipping/Returns/returns.php:228
+#: trunk/src/Infrastructure/Services/Order/Shipping/Returns/returns.php:144
+msgid "Recipient changed"
+msgstr "Cambiado dtos de destinatario"
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:9
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:9
+msgid "Recipient Data"
+msgstr "Datos  del destinatario"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:106
+msgid "Required Personal ID"
+msgstr "DNI/NIF Obligatorio"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:115
+msgid "Required Personalised Personal ID"
+msgstr "DNI/NIF Personalizado Obligatorio"
+
+#: src/Infrastructure/Web/Templates/Order/returns-row-package.php:119
+#: trunk/src/Infrastructure/Web/Templates/Order/returns.php:65
+msgid "Return Label"
+msgstr "Etiqueta de devolución"
+
+#: src/Infrastructure/Common/Email/config/return.config.php:12
+#: trunk/src/Infrastructure/Common/Email/config/return.config.php:12
+msgid "Return order {order_number}. {order_date}"
+msgstr "Devolución del pedido {order_number}. {order_date}"
+
+#: src/Infrastructure/Web/Templates/Order/tabs.php:28
+#: trunk/src/Infrastructure/Web/Templates/Order/tabs.php:28
+msgid "Returns"
+msgstr "Devolución"
+
+#: src/Infrastructure/Web/Templates/Order/returns.php:47
+#: trunk/src/Infrastructure/Web/Templates/Order/returns.php:47
+msgid "Returns cost to pay on Correos office from Customer"
+msgstr "A pagar por el cliente en la oficina de Correos"
+
+#: src/Infrastructure/Services/Order/Shipping/Returns/returns.php:195
+#: trunk/src/Infrastructure/Services/Order/Shipping/Returns/returns.php:114
+msgid "Returns created, now you can download it"
+msgstr "Devolución creada, ahora puedes bajarla"
+
+#: src/Infrastructure/Services/Order/Shipping/Returns/returns.php:196
+#: trunk/src/Infrastructure/Services/Order/Shipping/Returns/returns.php:115
+msgid "Returns instructions email sended to customer"
+msgstr "Instrucciones de devolución enviadas por email al cliente"
+
+#: src/Infrastructure/Common/Email/config/return.config.php:13
+#: trunk/src/Infrastructure/Common/Email/config/return.config.php:13
+msgid "RMA Label for refund order {order_number}"
+msgstr "Etiqueta de devolución del pedido {order_number}"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:32
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:32
+msgid "Rule Cost"
+msgstr "Coste por regla"
+
+#: src/Infrastructure/Common/Shipping/shippings.php:234
+#: trunk/src/Infrastructure/Common/Shipping/shippings.php:234
+msgid "Rules imported."
+msgstr "Reglas importadas."
+
+#: src/Infrastructure/Common/Shipping/AbstractShippingPro.php:26
+#: src/Infrastructure/Common/Shipping/AbstractShippingPro.php:42
+#: trunk/src/Infrastructure/Common/Shipping/AbstractShippingPro.php:26
+#: trunk/src/Infrastructure/Common/Shipping/AbstractShippingPro.php:42
+msgid "Rules table"
+msgstr "Reglas de coste"
+
+#: src/Infrastructure/Web/Templates/Settings/customs.php:69
+#: src/Infrastructure/Web/Templates/Settings/general.php:175
+#: src/Infrastructure/Web/Templates/Settings/senders.php:61
+#: trunk/src/Infrastructure/Web/Templates/Settings/customs.php:35
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:154
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:61
+msgid "Save"
+msgstr "Guardar"
+
+#: src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:46
+#: trunk/src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:46
+msgid "Search"
+msgstr "Buscar"
+
+#: src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:44
+#: trunk/src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:44
+msgid "Search by CP"
+msgstr "Buscar por CP"
+
+#: src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:63
+#: trunk/src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:63
+msgid "Search by State"
+msgstr "Buscar por provincia"
+
+#: src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:36
+#: trunk/src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:36
+msgid "Search by ZIP"
+msgstr "Buscar por CP"
+
+#: src/citypaq/citypaq-options.php:75 trunk/src/citypaq/citypaq-options.php:75
+msgid "Select a citypaq"
+msgstr "Selecciona un Citypaq"
+
+#: src/postoffice/postoffice-checkout.php:64
+#: src/postoffice/postoffice-options.php:47
+#: trunk/src/postoffice/postoffice-checkout.php:64
+#: trunk/src/postoffice/postoffice-options.php:47
+msgid "Select a Office"
+msgstr "Selecciona una oficina"
+
+#: src/Domain/Services/Order/class-force-order-shipping.php:96
+#: trunk/src/Domain/Services/Order/class-force-order-shipping.php:96
+msgid "Select an citypaq please"
+msgstr "Selecciona un Citypaq por favor"
+
+#: src/Domain/Services/Order/class-force-order-shipping.php:78
+#: trunk/src/Domain/Services/Order/class-force-order-shipping.php:78
+msgid "Select an office please"
+msgstr "Selecciona una oficina por favor"
+
+#: src/Infrastructure/Services/Bulk/bulk.php:68
+#: trunk/src/Infrastructure/Services/Bulk/bulk.php:68
+msgid "Select at least one order"
+msgstr "Selecciona al menos un pedido"
+
+#: src/Infrastructure/Services/Settings/settings.php:65
+#: trunk/src/Infrastructure/Services/Settings/settings.php:64
+msgid "Select at least one record"
+msgstr "Seleccione al menos un registro"
+
+#: src/citypaq/citypaq-checkout.php:67
+#: trunk/src/citypaq/citypaq-checkout.php:67
+msgid "Select City paq"
+msgstr "Selecciona un Citypaq"
+
+#: src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:15
+#: trunk/src/Infrastructure/Web/Templates/Shipping/citypaq-section.php:15
+msgid "Select one city paq"
+msgstr "Selecciona un Citypaq"
+
+#: src/Application/Services/Front/class-obtain-post-office-by-cp-handler.php:65
+#: src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:15
+#: trunk/src/Application/Services/Front/class-obtain-post-office-by-cp-handler.php:65
+#: trunk/src/Infrastructure/Web/Templates/Shipping/postoffice-section.php:15
+msgid "Select one office"
+msgstr "Selecciona una oficina"
+
+#: src/Application/Services/Bulk/class-obtain-manifiest-handler.php:73
+#: src/Application/Services/Bulk/class-obtain-merged-on-a4-format-handler.php:73
+#: src/Application/Services/Bulk/class-obtain-merged-on-labeler-format-handler.php:73
+#: trunk/src/Application/Services/Bulk/class-obtain-manifiest-handler.php:73
+#: trunk/src/Application/Services/Bulk/class-obtain-merged-on-a4-format-handler.php:73
+#: trunk/src/Application/Services/Bulk/class-obtain-merged-on-labeler-format-handler.php:73
+msgid "Select one order"
+msgstr "Seleccione un pedido"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:63
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:63
+msgid "Send customer phone to Correos to SMS notices"
+msgstr "Activa el envío de SMS al cliente desde Correos"
+
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:92
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:92
+msgid "Send request"
+msgstr "Enviar solicitud"
+
+#: src/Infrastructure/Web/Templates/Order/label.php:24
+#: src/Domain/Model/Order/Shipping/Label/class-label.php:262
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:24
+#: trunk/src/Domain/Model/Order/Shipping/Label/class-label.php:221
+msgid "Sender"
+msgstr "Remitente"
+
+#: src/Domain/Model/Settings/Sender/class-sender.php:436
+#: src/Domain/Model/Order/Shipping/Returns/class-identity.php:250
+#: trunk/src/Domain/Model/Settings/Sender/class-sender.php:432
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-identity.php:250
+msgid "Sender \"%1$s\" needs:"
+msgstr "El remitente \"%1$s\" necesita:"
+
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:9
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:9
+msgid "Sender Data"
+msgstr "Datos del remitente"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:14
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:14
+msgid "Sender needs:"
+msgstr "Remitente necesita:"
+
+#: src/Infrastructure/Web/Templates/Settings/senders.php:31
+#: src/Infrastructure/Web/Templates/Settings/tabs.php:18
+#: trunk/src/Infrastructure/Web/Templates/Settings/senders.php:31
+#: trunk/src/Infrastructure/Web/Templates/Settings/tabs.php:18
+msgid "Senders"
+msgstr "Remitentes"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:15
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:15
+msgid "Shipping Class"
+msgstr "Clases de envío"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:126
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:105
+msgid "Shipping methods"
+msgstr "Métodos de Envio"
+
+#: src/Infrastructure/Common/Shipping/config/paq48home.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/paq48home.config.php:11
+msgid "Shipping on 24h/48h"
+msgstr "Envío en 24h/48h"
+
+#: src/Infrastructure/Common/Shipping/config/paq72home.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/paq72home.config.php:11
+msgid "Shipping on 48h/72h"
+msgstr "Envío en 48/72h"
+
+#: src/Infrastructure/Common/Shipping/config/paq48office.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/paq48office.config.php:11
+msgid "Shipping on Correos Office 24h/48h"
+msgstr "Envío en 24h/48h"
+
+#: src/Infrastructure/Common/Shipping/config/paq72office.config.php:11
+#: trunk/src/Infrastructure/Common/Shipping/config/paq72office.config.php:11
+msgid "Shipping on Correos Office 48h/72h"
+msgstr "Envío en 48h/72h"
+
+#: src/Infrastructure/Common/Email/template/wecorreos-tracking.php:19
+#: trunk/src/Infrastructure/Common/Email/template/wecorreos-tracking.php:19
+msgid "Shipping Status"
+msgstr "Estado del pedido"
+
+#: src/Infrastructure/Common/Email/config/tracking.config.php:13
+#: trunk/src/Infrastructure/Common/Email/config/tracking.config.php:13
+msgid "Shipping tracking on WECorreos Shipping"
+msgstr "Correos seguimiento de pedidos"
+
+#: src/Infrastructure/Web/Templates/Settings/sender.php:22
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:22
+msgid "Show/Hide Info"
+msgstr "Mostrar/Ocultar información"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:62
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:62
+msgid "SMS notices"
+msgstr "Mensajes SMS"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:66
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:66
+msgid "SMS shipping notices from Correos"
+msgstr "SMS de Correos con el estado del envío"
+
+#: src/shared/shared-country-states.php:17
+#: trunk/src/shared/shared-country-states.php:17
+msgid "Spain"
+msgstr "España"
+
+#: src/Infrastructure/Web/Templates/Order/returns-recipient.php:92
+#: src/Infrastructure/Web/Templates/Order/returns-sender.php:68
+#: src/Infrastructure/Web/Templates/Settings/sender.php:69
+#: src/Infrastructure/Web/Templates/Welcome/welcome-form.php:68
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:77
+#: src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:52
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-recipient.php:92
+#: trunk/src/Infrastructure/Web/Templates/Order/returns-sender.php:68
+#: trunk/src/Infrastructure/Web/Templates/Settings/sender.php:70
+#: trunk/src/Infrastructure/Web/Templates/Welcome/welcome-form.php:68
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-recipient.php:77
+#: trunk/src/Domain/Model/Order/Shipping/Returns/class-returns-sender.php:52
+msgid "State"
+msgstr "Provincia"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:54
+#: src/Infrastructure/Web/Templates/Settings/customs.php:38
+msgid "Tariff Number"
+msgstr "Número Tarifario"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:55
+#: src/Infrastructure/Web/Templates/Settings/customs.php:39
+msgid ""
+"Tariff number for customs managment that appears in the pre-registration "
+"form. It can be changed before pre-registration"
+msgstr ""
+"Número tarifario para documentación de aduanas que aparece en el preregistro."
+" Puede ser cambiado previamente."
+
+#: src/welcome/welcome-message.php:16 trunk/src/welcome/welcome-message.php:16
+msgid ""
+"Thank you, your message has been sent successfully. Our commercial services "
+"will contact you shortly."
+msgstr ""
+"Gracias, Tu mensaje se ha enviado correctamente. Nuestros servicios "
+"comerciales contactarán en breve con Ud."
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:17
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:15
+msgid "The weight must be a number between 0 and 30"
+msgstr "El peso debe estar entre 0 y 30 Kg. Usar punto (.) para los decimales"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:14
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:14
+msgid "Then in shipping zones you can add theses shipping methods."
+msgstr "Después en zonas añade los métodos de envío."
+
+#: src/Infrastructure/Common/Email/config/return.config.php:11
+#: trunk/src/Infrastructure/Common/Email/config/return.config.php:11
+msgid ""
+"This is a notification that contains details for return orders shipping with "
+"WECorreos Shipping service."
+msgstr ""
+"Esta notificación contiene los detalles para las devoluciones a través de "
+"Correos."
+
+#: src/Infrastructure/Common/Email/config/tracking.config.php:11
+#: trunk/src/Infrastructure/Common/Email/config/tracking.config.php:11
+msgid ""
+"This is a notification that contains details for tracking orders shipping "
+"with WECorreos Shipping service."
+msgstr ""
+"Esta es una notificación que contiene información para el seguimiento de "
+"envío con servicio de Correos."
+
+#: src/Infrastructure/Web/Templates/Order/metabox-empty.php:13
+#: trunk/src/Infrastructure/Web/Templates/Order/metabox-empty.php:13
+msgid "This order no have Correos shipping"
+msgstr "Éste pedido no tiene envío con Correos"
+
+#: src/Infrastructure/Web/Templates/CostRules/header.php:27
+#: trunk/src/Infrastructure/Web/Templates/CostRules/header.php:27
+msgid "To (maximum)"
+msgstr "Hasta (máximo)"
+
+#: src/Infrastructure/Web/Templates/Order/label-header.php:16
+#: trunk/src/Infrastructure/Web/Templates/Order/label-header.php:16
+msgid "Tracking"
+msgstr "Seguimiento"
+
+#: src/Infrastructure/Common/Email/config/tracking.config.php:12
+#: trunk/src/Infrastructure/Common/Email/config/tracking.config.php:12
+msgid "Tracking order {order_number}. {order_date}"
+msgstr "Seguimiento del pedido {order_number}. {order_date}"
+
+#: src/Infrastructure/Services/Bulk/bulk.php:67
+#: trunk/src/Infrastructure/Services/Bulk/bulk.php:67
+msgid "Updating"
+msgstr "Actualizando"
+
+#: src/Infrastructure/Common/Email/config/return.config.php:10
+#: trunk/src/Infrastructure/Common/Email/config/return.config.php:10
+msgid "WECorreos shipping return"
+msgstr "Devolución de envío WECorreos"
+
+#: src/Infrastructure/Common/Email/config/tracking.config.php:10
+#: trunk/src/Infrastructure/Common/Email/config/tracking.config.php:10
+msgid "WECorreos shipping tracking"
+msgstr "Seguimiento de envío WECorreos"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:15
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:13
+#: src/Domain/Model/Order/Shipping/Label/Package/class-package.php:254
+#: trunk/src/Domain/Model/Order/Shipping/Label/Package/class-package.php:202
+msgid "Weight"
+msgstr "Peso"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:25
+#: trunk/src/Infrastructure/Web/Templates/Order/label-row-package.php:23
+#: src/Domain/Model/Order/Shipping/Label/Package/class-package.php:268
+#: trunk/src/Domain/Model/Order/Shipping/Label/Package/class-package.php:216
+msgid "Width"
+msgstr "Ancho"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:22
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:22
+msgid "Without 99"
+msgstr "Sin 99"
+
+#: src/Infrastructure/Web/Templates/Settings/general.php:37
+#: trunk/src/Infrastructure/Web/Templates/Settings/general.php:37
+msgid "Without CE"
+msgstr "Sin CE"
+
+#: src/Infrastructure/Common/Requirements/class-requirements.php:67
+#: trunk/src/Infrastructure/Common/Requirements/class-requirements.php:67
+msgid "WooCommerce %s or greater"
+msgstr "WooCommerce %s o mayor"
+
+#: src/Infrastructure/Web/Templates/error.php:16
+#: trunk/src/Infrastructure/Web/Templates/error.php:16
+msgid "WooEnvio Support"
+msgstr "Soporte WooEnvio"
+
+#: src/Infrastructure/Common/Email/template/wecorreos-tracking.php:17
+#: src/Infrastructure/Common/Email/template/plain/wecorreos-tracking.php:15
+#: trunk/src/Infrastructure/Common/Email/template/wecorreos-tracking.php:17
+#: trunk/src/Infrastructure/Common/Email/template/plain/wecorreos-tracking.php:15
+msgid "You can check the status of the shipment in this link"
+msgstr "En este link puedes ver el estado del pedido"
+
+#: src/Infrastructure/Web/Templates/Order/metabox-creating-order.php:10
+#: trunk/src/Infrastructure/Web/Templates/Order/metabox-creating-order.php:10
+msgid "You can select the type of shipment once the order is created"
+msgstr "Una vez creado el pedido puedes seleccionar un envío de Correos"
+
+#: src/Infrastructure/Web/Templates/Order/metabox-no-address-order.php:10
+#: trunk/src/Infrastructure/Web/Templates/Order/metabox-no-address-order.php:10
+msgid ""
+"You can select the type of shipment once the shipping address is created"
+msgstr ""
+"Una vez creada la dirección de envío puedes seleccionar un envío de Correos"
+
+#: src/Infrastructure/Services/Bulk/bulk.php:85
+#: src/Infrastructure/Services/Front/checkout.php:51
+#: src/Infrastructure/Services/Settings/settings.php:39
+#: trunk/src/Infrastructure/Services/Bulk/bulk.php:85
+#: trunk/src/Infrastructure/Services/Front/checkout.php:51
+#: trunk/src/Infrastructure/Services/Settings/settings.php:38
+msgid "You must have at least one lump"
+msgstr "Debes tener al menos un bulto"
+
+#: src/Infrastructure/Web/Templates/Order/label-row-package.php:99
+#: src/Infrastructure/Web/Templates/Order/label.php:53
+#: src/Infrastructure/Web/Templates/Order/returns-row-package.php:88
+#: src/Infrastructure/Web/Templates/Order/returns.php:50
+#: src/Infrastructure/Web/Templates/Order/returns.php:60
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:53
+#: trunk/src/Infrastructure/Web/Templates/Order/label.php:74
+#: trunk/src/Infrastructure/Web/Templates/Order/returns.php:50
+#: trunk/src/Infrastructure/Web/Templates/Order/returns.php:60
+msgid "€"
+msgstr "€"

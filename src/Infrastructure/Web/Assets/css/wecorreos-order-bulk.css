@@ -1,0 +1,97 @@
+table.wecorreos-border-grey {
+	border-collapse: collapse;
+	margin: 20px auto 20px;
+}
+
+table.wecorreos-border-grey,
+table.wecorreos-border-grey td {
+	border: 1px solid #ddd;
+}
+
+
+input[type="radio"][class="wecorreos-radio-img"] {
+	display: none;
+}
+
+label.wecorreos-radio-img {
+	border: 1px solid #fff;
+	padding: 10px;
+	display: block;
+	position: relative;
+	margin: 10px;
+	cursor: pointer;
+	min-width: 10px !important;
+}
+
+label.wecorreos-radio-img:before {
+	background-color: white;
+	color: white !important;
+	content: " ";
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 28px;
+	transition-duration: 0.4s;
+	transform: scale(0);
+}
+
+label.wecorreos-radio-img img {
+	height: 80px;
+	width: 80px;
+	transition-duration: 0.2s;
+	transform-origin: 50% 50%;
+}
+
+:checked + label.wecorreos-radio-img {
+	border-color: #ddd;
+}
+
+:checked + label.wecorreos-radio-img:before {
+	content: "✓";
+	background-color: green;
+	transform: scale(1);
+}
+
+:checked + label.wecorreos-radio-img img {
+	transform: scale(0.8);
+	z-index: -1;
+}
+
+
+.we-required {
+	color: red;
+}
+
+.we-form p {
+	margin: .3em 0;
+}
+
+.we-form label {
+	min-width: 150px;
+	display: inline-block;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.we-form select {
+	vertical-align: middle;
+}
+
+.we-form .woocommerce-help-tip {
+	display: inline-block;
+	float: right;
+}
+
+.we-form input[type=text]{
+	min-width: 200px;
+}
+
+.we-form input[type=text].we-short{
+	min-width: 80px;
+	max-width: 80px;
+}

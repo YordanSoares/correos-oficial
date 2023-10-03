@@ -1,0 +1,245 @@
+.we-group {
+	margin: 0 10px 0 0;
+}
+.we-group-table {
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	background: #fff;
+	width: 100%;
+}
+
+.we-group-table label {
+	font-weight: bold;
+	display: block;
+}
+
+.we-group-table td {
+	padding: 8px;
+}
+
+.we-group-table-td-checkbox,
+.we-group-table-td-checkbox {
+	border-right: 1px solid white;
+	width: 21px;
+}
+
+.we-group-table > tbody td:nth-child(2) {
+	padding: 0;
+}
+
+.we-group-table > tbody > tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+.we-group-table > thead td {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.we-group-table > tfoot td {
+	border-top: 1px solid #e5e5e5;
+}
+
+.we-group-table > tfoot .button {
+	margin-right: 8px;
+}
+
+.we-group-table-row td {
+	padding: 4px 8px;
+}
+
+.we-group-table-row tbody {
+	display: none;
+}
+
+.we-group-table-row .js-we-group-alias {
+	display: inline-block;
+	min-width: 150px;
+}
+
+.we-required {
+	color: red;
+}
+
+.we-form p {
+	margin: 1.5em 0;
+}
+
+.we-form label {
+	min-width: 200px;
+	display: inline-block;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.we-form input[type=text] {
+	max-width: 200px;
+}
+
+.we-form input[type=text].we-input-long {
+	min-width: 300px;
+}
+
+.we-form .multiselect {
+	min-width: 300px;
+}
+
+.we-form .we-multiple-select-buttons {
+	margin-top: 5px;
+	display: block;
+	margin-left: 200px;;
+}
+
+.we-form .we-group-table-row input[type=text],
+.we-form .we-group-table-row select {
+	max-width: 300px;
+	width: 100%;
+}
+.we-form .we-disabled {
+	background-color: #ccc;
+}
+
+.we-activated-license {
+	color: white;
+	font-weight: bold;
+	background-color: #46b450;
+	padding: 3px 10px;
+	border: 1px solid #390;
+}
+
+.woocommerce-help-tip {
+	color: #666;
+	display: inline-block;
+	font-size: 1.3em;
+	font-style: normal;
+	height: 16px;
+	line-height: 16px;
+	position: relative;
+	vertical-align: middle;
+	width: 16px;
+	margin-right: 5px;
+	float: right;
+	top:2px;
+}
+
+.woocommerce-help-tip::after{
+	font-family: 'Dashicons';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	content: '\f223';
+}
+
+#tiptip_holder {
+	display: none;
+	z-index: 8675309;
+	position: absolute;
+	top: 0;
+	/*rtl:ignore*/
+	left: 0;
+}
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: #333;
+}
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: #333;
+}
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: #333;
+}
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: #333;
+}
+
+#tiptip_content, .chart-tooltip, .wc_error_tip {
+	color: #fff;
+	font-size: 0.8em;
+	max-width: 150px;
+	background: #333;
+	text-align: center;
+	border-radius: 3px;
+	padding: 0.618em 1em;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+#tiptip_content code, .chart-tooltip code, .wc_error_tip code {
+	padding: 1px;
+	background: #888;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+.we-help-box {
+	min-width: 300px;
+	display: inline-block;
+	margin: 16px 0;
+	padding: 10px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	background: #fff;
+	font-size: 13px;
+}
+
+.we-tariff {
+	display: inline
+}
+
+.we-tariff-number {
+	display: inline
+}
+
+.we-tariff-description-legend {
+    margin-left: 3%;
+}
+.we-tariff-description-input {
+	margin-left: 1em;
+	max-width: 50% !important;
+	width: 50% !important;
+	line-height: 1.5em;
+}
+
+.we-customs-desription-and-tariff {
+ 	margin-top: -11px !important;
+}
+
+.we-consignor-reference {
+	max-width: 50% !important;
+	width: 50% !important;
+	line-height: 1.5em;	
+}

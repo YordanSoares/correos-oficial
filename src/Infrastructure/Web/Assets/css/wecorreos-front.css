@@ -1,0 +1,23 @@
+.we-wc-messages div.updated {
+	border-left-color: #46b450 !important;
+}
+
+.we-wc-messages div.error {
+	border-left-color: #dc3232 !important;
+}
+
+.we-wc-messages .notice,
+.we-wc-messages div.error,
+.we-wc-messages div.updated {
+	background: #fff;
+	border-left: 4px solid #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	margin: 5px 15px 15px;
+	padding: 1px 12px
+}
+
+.we-buttons-front-specials {
+	display: inline-block;
+	margin-left: 2em;
+}
